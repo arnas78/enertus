@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENERTUS - AEV</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/logo2.png" type="image/x-icon" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- styles css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <script src="https://rawgit.com/moment/2.2.1/min/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- header  -->
+      <header class="home" id="home-section">
+        <nav class="navbar navbar-hidden" id="nav">
+          <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+              <p class="nav-title">ENERTUS</p>
+              <button type="button" class="nav-toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <!-- end of nav header -->
+
+            <!-- nav links -->
+            <ul class="nav-links" id="nav-links">
+              <li>
+                <a class="nav-link scroll-link" href="#home">Pagrindinis</a>
+              </li>
+
+              <li>
+                <a class="nav-link scroll-link" href="#intro">Apie mus</a>
+              </li>
+
+              <li>
+                <a class="nav-link scroll-link" href="#tips">Patarimai</a>
+              </li>
+
+              <li>
+                <a class="nav-link scroll-link" href="#survey">Apklausa</a>
+              </li>
+
+              <li>
+                <a class="nav-link scroll-link" href="#app">Programėlė</a>
+              </li>
+            </ul>
+            <!-- end ofnav links -->
+
+            <!-- nav links -->
+            <ul class="nav-socials">
+              <li>
+                <a
+                  href="https://www.facebook.com/enertus.lt"
+                  target="_blank"
+                  class="nav-icon"
+                >
+                  <i class="fab fa-facebook icon"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/enertus_lt/"
+                  class="nav-icon"
+                >
+                  <i class="fab fa-instagram icon"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:enertus.info@gmail.com"
+                  target="_blank"
+                  class="nav-icon"
+                >
+                  <i class="fas fa-at"></i>
+                </a>
+              </li>
+            </ul>
+            <!-- end of nav links -->
+          </div>
+        </nav>
+
+        <div class="hero" id="home">
+          <div class="hero-banner">
+            <h1>Atsakingas energijos Vartojimas</h1>
+            <div class="underline-white-hero"></div>
+            <p>
+              Susipažinkite su moderniais energijos taupymo būdais ir tapkite
+              atsakingesniu energijos vartotoju
+            </p>
+            <a href="#intro" class="btn banner-btn scroll-link">
+              <span class="hero-icon">
+                <i class="fas fa-angle-double-down"></i>
+              </span>
+              &nbsp;&nbsp;&nbsp;sužinoti daugiau
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- end of header  -->
+
+      <section class="intro" id="intro">
+        <div class="section-intro">
+          <h2 class="section-title">Kas mes esame?</h2>
+          <div class="underline-electric"></div>
+          <h3 class="intro-text">
+            Mūsų komanda yra Kauno Technologijos Universiteto informatikos
+            studentai ir mūsų tikslas - suteikti papildomų žinių bei galimybę
+            prisidėti prie planetos tausojimo -
+            <span class="electric-text">atsakingo energijos vartojimo.</span>
+          </h3>
+          <h3 class="intro-text">
+            Mes tikime, kad didžioji visuomenės dalis supranta, kad energiją,
+            visgi, reikia tausoti, tačiau nėra iki galo aišku, kaip konkrečiai
+            prie to galima prisidėti.
+          </h3>
+        </div>
+
+        <div class="intro-text-container">
+          <div class="introo">
+            <h3 class="intro-text">
+              Sukūrėme mobiliąją programėlę, kuri Jums leidžia:
+            </h3>
+            <ul class="intro-list">
+              <li>Greitai ir paprastai sekti savo suvartojamą energiją</li>
+              <li>Iškarto matyti, kiek sutaupote pajamų</li>
+              <li>Siekti skirtingų taupumo lygių</li>
+              <li>Atrasti daugiau būdų, kaip sutaupyti</li>
+            </ul>
+
+            <a href="#app" class="scroll-link intro-btn">
+              Daugiau apie programėlę
+            </a>
+          </div>
+
+          <div class="intro-picture-container">
+            <img src="./images/mobile-frame.png" class="intro-mobile" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cards" id="tips">
+        <div class="container">
+          <div class="section-title">
+            <h2><span class="white-span-text">Kaip tai padaryti?</span></h2>
+            <div class="underline-white"></div>
+          </div>
+          <input type="radio" name="dot" id="one" />
+          <input type="radio" name="dot" id="two" />
+          <div class="main-card">
+            <div class="cards">
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-chart-line"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Rinkitės efektyvesnius prietaisus</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Elektros prietaisų efektyvumas reitinguojamas nuo
+                        <span style="color: red"> F </span>iki
+                        <span style="color: green">A+++</span>. <br />Yra
+                        paskaičiuota, kad A+++ klasės šaldytuvas per gyvavimo
+                        laiką sutaupo <span id="price">370€.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-lightbulb"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Pakeiskite senas lemputes į LED</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Per metus atnaujinus seną lemputę į LED, vidutiniškai
+                        sumažinsite elektros sąskaitą
+                        <span id="price"> 15€.</span> LED lemputės naudoja
+                        <span id="price"> 50-90% mažiau</span> energijos nei
+                        paprastos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-plug"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Išjunkite nenaudojamus prietaisus</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Organizacijos „Energy Saving Trust“ duomenimis, kaskart
+                        po prietaisų naudojimo prisimindami juos išjungti iš
+                        tinklo, per metus galite sutaupyti iki
+                        <span id="price"> 35€.</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cards">
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-tshirt"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Skalbkite efektyviau</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Skalbdami žemesnės temperatūros vandenyje, per metus
+                        galite sutaupyti apie
+                        <span id="price"> 80€</span>.<br />Skalbimo mašiną
+                        junkite tik tada, kai ji <span id="price"> pilna</span>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-utensils"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Sukonfigūruokite šaldytuvą</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Šaldytuve pasirinkite optimalią temperatūrą –
+                        <span id="price">maistui</span> pakanka
+                        <span id="price">3°C</span>, o
+                        <span id="price">šaldikliui -18°C.</span><br />
+                        Reguliariai atlikite šaldytuvo atitirpinimą.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="content">
+                  <div class="img">
+                    <span class="card-icon">
+                      <i class="fas fa-solar-panel"></i>
+                    </span>
+                  </div>
+                  <div class="details">
+                    <div class="name">Energijos sprendimo alternatyvos</div>
+                    <div class="job">
+                      <p class="service-text">
+                        Įsirengus saulės energijos ant namų stogo, elektros
+                        sąskaita sumažėja <span id="price"> 3 kartus.</span
+                        ><br />
+                        Papildoma investicija
+                        <span id="price"> atsipirks per 6-7 metus</span> su
+                        valstybės parama
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <label for="one" class="active one"></label>
+            <label for="two" class="two"></label>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-quiz" id="survey">
+        <div class="containerr">
+          <div class="quiz-title">
+            <h1 class="quiz-title-text">Pasitikrinkite žinias</h1>
+          </div>
+
+          <div class="quiz-container" id="quiz">
+            <div id="question-container" class="hide">
+              <div id="question">Question</div>
+              <div id="answer-buttons" class="btn-grid">
+                <button class="btn btn-quiz">Answer 1</button>
+                <button class="btn btn-quiz">Answer 2</button>
+                <button class="btn btn-quiz">Answer 3</button>
+                <button class="btn btn-quiz">Answer 4</button>
+              </div>
+            </div>
+            <div class="controls">
+              <h2 id="start-text">
+                Sužinokite, pasitikrinkite bei palyginkite savo žinias su
+                visuomene
+              </h2>
+            </div>
+            <div class="controls">
+              <button id="start-btn" class="start-btn btn">Pradėti</button>
+              <button id="next-btn" class="next-btn hide">Kitas</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chart-section">
+        <div class="section-title chart-info-container">
+          <h2>Apklausos rezultatai</h2>
+          <div class="underline-electric"></div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide-container">
+              <div class="chart-container">
+                <canvas id="myChart"></canvas>
+              </div>
+              <div class="chart-question-container">
+                <h3 class="chart-question">
+                  Kuri dalis visos žemės gyvūnų populiacijos dėl žmonių veiklos
+                  jau yra išnykusi?
+                </h3>
+                <h4 class="chart-answer">Teisingas atsakymas &rarr; 60%</h4>
+              </div>
+            </div>
+            <div class="swiper-slide slide-container">
+              <div class="chart-question-container">
+                <h3 class="chart-question">
+                  Kiek °C padidėjo bendra žemės paviršiaus šiluma per
+                  paskutinius 100 metų?
+                </h3>
+                <h4 class="chart-answer">Teisingas atsakymas &rarr; 1 °C</h4>
+              </div>
+              <div class="chart-container">
+                <canvas id="myChart2"></canvas>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide-container">
+              <div class="chart-container">
+                <canvas id="myChart3"></canvas>
+              </div>
+              <div class="chart-question-container">
+                <h3 class="chart-question">
+                  Kiek vidutiniškai viename bute per metus sunaudojama elektros?
+                </h3>
+                <h4 class="chart-answer">
+                  Teisingas atsakymas &rarr; 1200 kWh
+                </h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide slide-container">
+              <div class="chart-question-container">
+                <h3 class="chart-question">
+                  Iš kurios žaliavos yra išgaunama daugiausiai elektros
+                  energijos?
+                </h3>
+                <h4 class="chart-answer">Teisingas atsakymas &rarr; Anglies</h4>
+              </div>
+              <div class="chart-container">
+                <canvas id="myChart4"></canvas>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "flip",
+          grabCursor: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+      <section class="section-app" id="app">
+        <div class="quiz-title app-title">
+          <div class="underline-electric underline-chart"></div>
+          <h1>Išbandykite mūsų programėlę</h1>
+          <div class="download-container">
+            <div class="qr-container">
+              <h2>Skenuokite QR kodą</h2>
+              <img class="qr-image" src="/images/qr_code.png" alt="qrcode" />
+            </div>
+            <div class="url-container">
+              <h2>Arba atsisiųskite</h2>
+              <a
+                target="”_blank”"
+                href="https://mega.nz/file/HdRgVLiL#CSOp3FG2FFjoNW6-V7U9j4NSOknFxG4f3zBq9eE6AMU"
+                class="btn banner-btn app-btn"
+              >
+                <span class="hero-icon">
+                  <i class="fas fa-arrow-alt-circle-down"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+
+      <section class="section" id="footer">
+        <div class="footer-container">
+          <span class="footer-copyright">
+            <p class="copyright">
+              copyright &copy; KTU IFZK9 grupės studentai.
+              <span id="date"></span> all rights reserved
+            </p>
+          </span>
+        </div>
+      </section>
+
+      <!-- js -->
+      <script src="./js/app.js"></script>
+      <script type="text/javascript" src="utility.js"></script>
+    </main>
+  </body>
+</html>
